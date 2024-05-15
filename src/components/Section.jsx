@@ -16,7 +16,7 @@ const Section = () => {
         <div className="grid grid-cols-2 gap-8 w-full">
           <div className=" text-white px-20">
             <p className=" text-3xl font-semibold tracking-[6px]">
-              Let's Stay Connected !
+              Let`'`s Stay Connected !
             </p>
             <p className=" text-lg font-medium pr-28 pt-6">
               Be the first to hear about our best tour services deals that are

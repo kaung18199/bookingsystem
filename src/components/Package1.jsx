@@ -19,7 +19,7 @@ const Package1 = () => {
           <p className=" text-xs font-medium text-gray-500">Children</p>
           <p className=" text-[10px] text-gray-600">
             Under 18 ($30){" "}
-            <span className=" text-red-500">free for infants &lt; 2 years</span>
+            <span className=" text-red-500">free for infants 2 years</span>
           </p>
         </div>
         <div className=" flex justify-end items-center">

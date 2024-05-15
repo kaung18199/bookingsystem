@@ -14,6 +14,7 @@ const HeroSection = () => {
           src={
             "https://images.pexels.com/photos/315998/pexels-photo-315998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
+          alt="image cover"
           width={1000}
           height={1000}
           className="w-full h-full object-cover object-center relative z-10"
