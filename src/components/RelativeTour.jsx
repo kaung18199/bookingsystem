@@ -66,8 +66,8 @@ const RelativeTour = () => {
   useEffect(() => {}, []);
   return (
     <div className=" py-20">
-      <div className=" pl-10">
-        <div className=" border-l-8 border-indigo-500 pl-4 py-2 space-y-1">
+      <div className=" pl-28">
+        <div className=" border-l-8 border-primary pl-4 py-2 space-y-1">
           <p className=" text-xl font-semibold ">Related Tour Packages</p>
           <p className=" text-red-500 font-semibold">
             Discover Top Tours and Attractions at Great Prices

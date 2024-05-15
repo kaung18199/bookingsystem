@@ -43,7 +43,7 @@ const HeroSection = () => {
           ></path>
         </svg>
       </div>
-      <div className=" absolute bottom-6 z-30 w-full px-20">
+      <div className=" absolute bottom-6 z-30 w-full px-28">
         <div className=" flex justify-between items-center">
           <div className=" space-y-2">
             <p className=" text-xl font-semibold">Chao Phraya</p>
@@ -96,11 +96,14 @@ const HeroSection = () => {
               </div>
               <p className=" pl-9 text-base font-medium">20%</p>
             </div>
-            <div className=" ">
-              <p className=" border font-semibold border-indigo-500 px-6 hover:bg-indigo-500 hover:text-white cursor-pointer text-indigo-500 py-2.5 rounded-md">
+            {/* <div className=" ">
+              <p className=" border font-semibold border-primary px-6 hover:bg-primary hover:text-white cursor-pointer text-primary py-2.5 rounded-md">
                 BOOK NOW
               </p>
-            </div>
+            </div> */}
+            <button class="button2 font-semibold py-1.5 px-4 rounded-md border border-primary">
+              BOOK NOW
+            </button>
           </div>
         </div>
       </div>

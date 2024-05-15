@@ -14,9 +14,9 @@ const Section = () => {
       <div className=" w-full h-full bg-black/50 absolute top-0 left-0 z-20"></div>
       <div className="  absolute top-0 left-0 w-full z-30 flex justify-center items-center h-full">
         <div className="grid grid-cols-2 gap-8 w-full">
-          <div className=" text-white px-20">
+          <div className=" text-white px-28">
             <p className=" text-3xl font-semibold tracking-[6px]">
-              Let`'`s Stay Connected !
+              Let's Stay Connected !
             </p>
             <p className=" text-lg font-medium pr-28 pt-6">
               Be the first to hear about our best tour services deals that are
@@ -32,7 +32,7 @@ const Section = () => {
                 placeholder="Enter your Email"
                 id=""
               />
-              <button className=" bg-indigo-500 text-white py-3 px-10 ">
+              <button className=" bg-primary button2 text-white py-3 px-10 ">
                 SUBMIT
               </button>
             </div>

@@ -3,8 +3,17 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <div className=" px-20 py-10 bg-gray-900 space-y-8">
+    <div className=" relative">
+      <div className="absolute bottom-0 left-0 z-10 w-full h-full">
+        <Image
+          src="https://img.freepik.com/free-vector/abstract-halftone-background_23-2148573406.jpg?t=st=1715798906~exp=1715802506~hmac=6d1e7e42d606339495ab0a429a09b51191327399895fb56bef90b6ffc6940e5a&w=996"
+          alt="cover"
+          width={1000}
+          height={1000}
+          className=" h-full w-full opacity-10 object-cover"
+        />
+      </div>
+      <div className=" px-28 py-10 bg-gray-900 space-y-8">
         <div className=" w-[100px] h-[100px] rounded-md overflow-hidden">
           <Image
             src={

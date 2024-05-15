@@ -34,7 +34,7 @@ const TagDev5 = () => {
         ))}
       </div>
       <div className=" flex justify-center items-center pt-10">
-        <p className=" border font-semibold border-indigo-500 px-10 hover:bg-indigo-500 hover:text-white cursor-pointer text-indigo-500 py-2.5 rounded-md">
+        <p className=" border font-semibold border-primary px-10 button2 cursor-pointer text-primary py-2.5 rounded-md">
           Download PDF
         </p>
       </div>

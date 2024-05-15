@@ -100,13 +100,16 @@ const ImageCarouselDev = () => {
         className=" rounded-b-md overflow-hidden"
       >
         {list.map((d, index) => (
-          <div key={d.id} className=" h-[100px] w-[100px]">
+          <div
+            key={d.id}
+            className=" h-[95px] w-[100px] rounded-md overflow-hidden"
+          >
             <Image
               src={d.image}
               alt={d.name}
               width={300}
               height={300}
-              className=" w-full h-full object-cover "
+              className=" w-full h-full  object-cover "
             />
           </div>
         ))}

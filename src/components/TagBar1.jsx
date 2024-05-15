@@ -11,14 +11,14 @@ const TagBar1 = () => {
   const [show, setShow] = useState(1);
   return (
     <div>
-      <div className=" flex justify-start text-center items-center text-xs border border-gray-500 w-full rounded-md">
+      <div className=" flex justify-start text-center bg-white items-center text-xs border border-primary w-full rounded-md">
         <div
           onClick={(pre) => {
             if (show != 1) {
               setShow(show - 1);
             }
           }}
-          className="   py-3 cursor-pointer hover:bg-indigo-500 hover:text-white transition duration-150 w-[5%] flex justify-center items-center "
+          className="   py-3  w-[5%] flex justify-center items-center "
         >
           <Image
             src="/arrow-left-2-svgrepo-com.svg"
@@ -28,50 +28,50 @@ const TagBar1 = () => {
             className="w-[18px] h-full "
           />
         </div>
-        <div
-          className={` border-l border-gray-500 py-3 cursor-pointer hover:bg-indigo-500 hover:text-white transition duration-150 h-full w-[25%] ${
-            show == 1 ? "bg-indigo-500 text-white" : ""
+        <button
+          className={`border-l border-gray-500 py-3 cursor-pointer h-full w-[25%] button2 ${
+            show == 1 ? "bg-primary text-white" : ""
           }`}
           onClick={() => setShow(1)}
         >
           <p className=" text-center w-full text-nowrap">
             Enjooy the adventure
           </p>
-        </div>
-        <div
-          className={` border-l border-gray-500 py-3 cursor-pointer hover:bg-indigo-500 hover:text-white transition duration-150 h-full w-[20%] ${
-            show == 2 ? "bg-indigo-500 text-white" : ""
+        </button>
+        <button
+          className={` border-l border-gray-500 py-3 cursor-pointer h-full button2 w-[20%] ${
+            show == 2 ? "bg-primary text-white" : ""
           }`}
           onClick={() => setShow(2)}
         >
           Included/Encluded
-        </div>
-        <div
-          className={` border-l border-gray-500 py-3 cursor-pointer hover:bg-indigo-500 hover:text-white transition duration-150 h-full w-[15%] ${
-            show == 3 ? "bg-indigo-500 text-white" : ""
+        </button>
+        <button
+          className={`border-l border-gray-500 py-3 button2 cursor-pointer h-full  w-[15%] ${
+            show == 3 ? "bg-primary text-white" : ""
           }`}
           onClick={() => setShow(3)}
         >
           Tour Map
-        </div>
-        <div
-          className={` border-l border-gray-500 py-3 cursor-pointer hover:bg-indigo-500 hover:text-white transition duration-150 h-full w-[15%] ${
-            show == 4 ? "bg-indigo-500 text-white" : ""
+        </button>
+        <button
+          className={`border-l border-gray-500 py-3 button2 cursor-pointer h-full  w-[15%] ${
+            show == 4 ? "bg-primary text-white" : ""
           }`}
           onClick={() => setShow(4)}
         >
           Itinerary
-        </div>
-        <div
-          className={` border-l border-gray-500 py-3 cursor-pointer hover:bg-indigo-500 hover:text-white transition duration-150 h-full w-[15%] ${
-            show == 5 ? "bg-indigo-500 text-white" : ""
+        </button>
+        <button
+          className={`border-l border-gray-500 py-3 button2 cursor-pointer h-full  w-[15%] ${
+            show == 5 ? "bg-primary text-white" : ""
           }`}
           onClick={() => setShow(5)}
         >
           Gallery
-        </div>
+        </button>
         <div
-          className=" border-l border-gray-500 py-3 cursor-pointer hover:bg-indigo-500 hover:text-white transition duration-150 w-[5%] flex justify-center items-center"
+          className="py-3  w-[5%] flex justify-center items-center border-l border-gray-500"
           onClick={(pre) => {
             if (show != 5) {
               setShow(show + 1);

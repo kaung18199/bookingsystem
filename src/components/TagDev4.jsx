@@ -15,12 +15,12 @@ const TagDev4 = () => {
           destinations in the world.
         </p>
       </div>
-      <div className=" mt-4 border border-gray-100 rounded-md shadow-md p-6">
+      <div className=" mt-4 border border-gray-100 bg-white rounded-md shadow-md p-6">
         <div className=" border-b border-gray-300 pb-5">
           <div className=" flex justify-between items-center">
             <p
-              className={` text-xs font-semibold text-indigo-500 pl-4 ${
-                show == 1 ? "border-l-4 border-indigo-500" : ""
+              className={` text-xs font-semibold text-primary pl-4 ${
+                show == 1 ? "border-l-4 border-primary" : ""
               }`}
             >
               Day 1 -{" "}
@@ -49,8 +49,8 @@ const TagDev4 = () => {
         <div className=" border-b border-gray-300 pb-5 pt-3">
           <div className=" flex justify-between items-center">
             <p
-              className={` text-xs font-semibold text-indigo-500 pl-4 ${
-                show == 2 ? "border-l-4 border-indigo-500" : ""
+              className={` text-xs font-semibold text-primary pl-4 ${
+                show == 2 ? "border-l-4 border-primary" : ""
               }`}
             >
               Day 2 -{" "}
@@ -77,8 +77,8 @@ const TagDev4 = () => {
         <div className=" border-b border-gray-300 pb-5 pt-3">
           <div className=" flex justify-between items-center">
             <p
-              className={` text-xs font-semibold text-indigo-500 pl-4 ${
-                show == 3 ? "border-l-4 border-indigo-500" : ""
+              className={` text-xs font-semibold text-primary pl-4 ${
+                show == 3 ? "border-l-4 border-primary" : ""
               }`}
             >
               Day 3 -{" "}
@@ -105,8 +105,8 @@ const TagDev4 = () => {
         <div className=" border-b border-gray-300 pb-5 pt-3">
           <div className=" flex justify-between items-center">
             <p
-              className={` text-xs font-semibold text-indigo-500 pl-4 ${
-                show == 4 ? "border-l-4 border-indigo-500" : ""
+              className={` text-xs font-semibold text-primary pl-4 ${
+                show == 4 ? "border-l-4 border-primary" : ""
               }`}
             >
               Day 4 -{" "}
@@ -135,8 +135,8 @@ const TagDev4 = () => {
         <div className=" pt-3 ">
           <div className=" flex justify-between items-center">
             <p
-              className={` text-xs font-semibold text-indigo-500 pl-4 ${
-                show == 5 ? "border-l-4 border-indigo-500" : ""
+              className={` text-xs font-semibold text-primary pl-4 ${
+                show == 5 ? "border-l-4 border-primary" : ""
               }`}
             >
               Day 5 -{" "}
@@ -164,7 +164,7 @@ const TagDev4 = () => {
         </div>
       </div>
       <div className=" flex justify-center items-center pt-10">
-        <p className=" border font-semibold border-indigo-500 px-10 hover:bg-indigo-500 hover:text-white cursor-pointer text-indigo-500 py-2.5 rounded-md">
+        <p className=" border font-semibold border-primary px-10 button2 cursor-pointer text-primary py-2.5 rounded-md">
           Download PDF
         </p>
       </div>

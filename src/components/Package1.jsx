@@ -31,7 +31,7 @@ const Package1 = () => {
       <div className=" space-y-4">
         <p className="text-xs font-medium text-gray-500">Meetup Location</p>
         <div className=" flex justify-start items-center gap-3">
-          <p className=" border border-indigo-500 rounded-md py-1 px-4 text-[12px] text-indigo-500">
+          <p className=" border border-primary rounded-md py-1 px-4 text-[12px] text-primary">
             Hotel Pick up
           </p>
           <p className=" border border-gray-500 rounded-md py-1 px-4 text-[12px] text-gray-500">
@@ -40,7 +40,7 @@ const Package1 = () => {
         </div>
         <p className="text-xs font-medium text-gray-500">Time-slot</p>
         <div className=" flex justify-start items-center gap-3">
-          <p className=" border border-indigo-500 rounded-md py-1 px-5 text-[12px] text-indigo-500">
+          <p className=" border border-primary rounded-md py-1 px-5 text-[12px] text-primary">
             1:00 3:00 PM
           </p>
           <p className=" border border-gray-500 rounded-md py-1 px-5 text-[12px] text-gray-500">

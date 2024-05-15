@@ -6,7 +6,7 @@ const Package2 = () => {
       <p>Package Type</p>
       <div className=" bg-gray-50 p-2.5 rounded-md space-y-3">
         <div className=" flex justify-start items-center flex-wrap gap-3">
-          <p className=" border border-indigo-500 text-indigo-500 rounded-md cursor-pointer px-4 py-1 text-xs">
+          <p className=" border border-primary text-primary rounded-md cursor-pointer px-4 py-1 text-xs">
             Alphard(1-5 persons)
           </p>
           <p className=" border border-gray-500 text-gray-700 rounded-md cursor-pointer px-4 py-1 text-xs">

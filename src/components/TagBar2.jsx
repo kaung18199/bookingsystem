@@ -8,7 +8,7 @@ const TagBar2 = () => {
   const [type, setType] = useState(1);
   return (
     <div>
-      <div className=" border border-gray-500 rounded-md px-4 relative">
+      <div className=" border border-gray-500 rounded-md px-4 bg-white relative">
         <div>
           <p className=" text-[8px]">Keyword (Option)</p>
           {/* <p className=" text-xs pb-1 text-gray-400">
@@ -21,7 +21,7 @@ const TagBar2 = () => {
             placeholder="Search Attraction or Activity"
           />
         </div>
-        <div className=" bg-indigo-500 absolute right-0 top-0 h-full px-3 cursor-pointer flex justify-center items-center">
+        <div className=" bg-primary absolute right-0 top-0 h-full px-3 cursor-pointer flex justify-center items-center">
           <Image
             src="/search-svgrepo-com.svg"
             alt="search icons"
@@ -33,7 +33,7 @@ const TagBar2 = () => {
       </div>
       <div className=" mt-10">
         <div className=" bg-white shadow-md rounded-md p-4 space-y-4">
-          <p className=" text-indigo-500 font-semibold">Booking Form</p>
+          <p className=" text-primary font-semibold">Booking Form</p>
           <div className=" flex justify-between items-center border-b border-gray-300 pb-5">
             <div className=" space-y-2">
               <p className=" text-xs text-gray-500">Price</p>
@@ -55,27 +55,27 @@ const TagBar2 = () => {
           </div>
           <div className=" space-y-4">
             <p className=" text-xs font-medium">Trip Type</p>
-            <div className=" w-full border border-indigo-500 rounded-md flex justify-between items-center ">
-              <p
-                className={` w-[50%] h-full text-indigo-500 text-center hover:bg-indigo-500 hover:text-white cursor-pointer py-2 text-xs ${
-                  type == 1 ? "bg-indigo-500 text-white" : ""
+            <div className=" w-full border border-primary rounded-md flex justify-between items-center ">
+              <button
+                className={` w-[50%] h-full  text-center button2  cursor-pointer py-2 text-xs ${
+                  type == 1 ? "bg-primary text-white" : " text-primary"
                 }`}
                 onClick={() => setType(1)}
               >
                 Join Tour
-              </p>
-              <p
-                className={` w-[50%] h-full text-indigo-500 text-center hover:bg-indigo-500 hover:text-white cursor-pointer py-2 text-xs ${
-                  type == 2 ? "bg-indigo-500 text-white" : ""
+              </button>
+              <button
+                className={` w-[50%] h-full  text-center button2 cursor-pointer py-2 text-xs ${
+                  type == 2 ? "bg-primary text-white" : " text-primary"
                 }`}
                 onClick={() => setType(2)}
               >
                 Private Tour
-              </p>
+              </button>
             </div>
             {type == 1 ? <Package1 /> : <Package2 />}
             <div className=" pt-3">
-              <p className=" border font-semibold border-indigo-500 px-6 text-indigo-500 py-2.5 hover:bg-indigo-500 hover:text-white text-center cursor-pointer rounded-md w-full">
+              <p className=" border font-semibold border-primary px-6 text-primary py-2.5  text-center cursor-pointer button2 rounded-md w-full">
                 BOOK NOW FOR $ 120
               </p>
             </div>

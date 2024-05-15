@@ -4,7 +4,7 @@ import React from "react";
 const RelativeCart = ({ data }) => {
   return (
     <div>
-      <div className=" bg-white w-[95%] shadow-md border-b-8 border-indigo-500 p-3  rounded-md relative">
+      <div className=" bg-white w-[95%] shadow-md border-b-8 border-primary p-3  rounded-md relative">
         <Image
           src={data.image}
           alt="image"
@@ -18,7 +18,7 @@ const RelativeCart = ({ data }) => {
           </p>
           <p className=" text-white font-semibold">$ 2,400</p>
         </div>
-        <p className=" text-indigo-500 font-semibold text-xl pt-4 pb-2">
+        <p className=" text-primary font-semibold text-xl pt-4 pb-2">
           {data.name}
         </p>
         <p className=" font-semibold  pb-4">{data.second_name}</p>
