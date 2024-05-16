@@ -32,11 +32,11 @@ const RelativeCart = ({ data }) => {
           <p className=" font-bold text-orange-500">4.6</p>
           <p className=" italic text-xs text-gray-600">+2M people reserved</p>
         </div>
-        <div className=" flex justify-start items-center gap-x-2 py-4">
-          <p className=" bg-slate-500/20 px-3 py-0.5  text-[10px] text-gray-500">
+        <div className=" flex justify-start items-center gap-2 py-4 flex-wrap">
+          <p className=" bg-slate-500/20 px-3 py-0.5  text-[10px] text-gray-500 text-nowrap">
             Easy Refund
           </p>
-          <p className=" bg-slate-500/20 px-3 py-0.5  text-[10px] text-gray-500">
+          <p className=" bg-slate-500/20 px-3 py-0.5  text-[10px] text-gray-500 text-nowrap">
             Book now for tomorrow
           </p>
         </div>
